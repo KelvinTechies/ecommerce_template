@@ -1,0 +1,174 @@
+.wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+.logo {
+  width: 30%;
+}
+
+.nav_container {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px 0 70px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* .nav_container > * { */
+/* width: 30%; */
+/* } */
+
+.nav_container .myForm_search input {
+  width: 25rem;
+  border: none;
+  outline: none;
+  padding: 0.6rem;
+  border: 0.5px solid #d2d1d1;
+}
+
+.nav_container .myForm_search span {
+  width: 30px;
+  height: 30px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.nav_container .ul ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.nav_container .ul ul li ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  gap: 1rem;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.nav_container .cart button {
+  border: none;
+  outline: none;
+  padding: 1.4rem;
+  width: 150px;
+  border-radius: 40px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navigation .myRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  /* padding: 1rem; */
+}
+
+.myRow li {
+  padding: 1rem;
+  font-weight: 600;
+}
+
+/* Hero */
+
+.my-bg-secondary {
+  background: url(../public/assets/Hero/4907157.jpg);
+  position: relative;
+  height: 800px;
+  width: 55%;
+}
+
+.my-bg-secondary .img {
+  width: 800px;
+  height: 1000px;
+  position: absolute;
+  top: -2rem;
+  right: 0;
+}
+
+.my-bg-secondary .img img {
+  width: 100%;
+  height: 100%;
+}
+.myRounded {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  position: absolute;
+  right: 12rem;
+  top: 3rem;
+  background: rgb(246, 246, 246);
+}
+.myOBg {
+  height: 350px;
+}
+.myObg {
+  height: 435px;
+}
+.sec_bg {
+  /* background: url(assets/Hero/women-s-red-high-heel-shoes-formal-fashion.jpg); */
+  /* height: 100%; */
+  width: 100%;
+  /* background-position: center; */
+  /* background-size: cover; */
+  height: 340px;
+  background-color: #e5dcc3;
+}
+.sec_bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.m_flx {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 40%;
+}
+
+.m_flx_2 {
+  display: flex;
+  gap: 0.3rem;
+}
+.mY-f_3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.sec_bg_1 {
+  width: 100%;
+  height: 445px;
+  background-color: #d6dac8;
+}
+
+.sec_bg_2 {
+  width: 100%;
+  height: 445px;
+  background-color: #f0ece3;
+}
+
+.sec_bg_1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.sec_bg_2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.txt {
+  position: absolute;
+  top: 200px;
+  z-index: 10000;
+}
